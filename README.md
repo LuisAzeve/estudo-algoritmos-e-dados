@@ -1,2 +1,3 @@
 # estudo-algoritmos-e-dados
-projetinho faculdade
+
+##projeto faculdade estudos com rust
