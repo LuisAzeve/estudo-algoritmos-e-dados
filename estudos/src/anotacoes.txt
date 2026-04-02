@@ -1,0 +1,7 @@
+anotações importantes:
+
+Similar ao python para gerar multiplos arquivos pra maior organização posso fazer como abaixo:
+
+mod ou use (nome arquivo)
+
+no python seria: import (biblioteca, ou arquivo) ou from (biblioteca, ou arquivo)
