@@ -1,23 +1,37 @@
-# estudo-algoritmos-e-dados
+# Sistema de Busca Otimizado para Catálogo de Produtos - MegaStore
 
-projeto faculdade
+Sistema de busca e recomendação de produtos desenvolvido em Rust para o catálogo da MegaStore, utilizando tabelas hash (HashMap) e grafos para indexação eficiente e recomendações baseadas em categoria.
 
-separei as pastas estudos, para estudar a linguagem, e a pasta megastore é meu projeto do trabalho da faculdade
+---
 
-## 📁 Estrutura do Repositório
+## Tecnologias Utilizadas
 
-O repositório está organizado em duas pastas principais:
+- **Rust** (edition 2021)
+- **std::collections::HashMap** — indexação e grafo de recomendações
+- **std::io** — interface de entrada do usuário
+- **cargo test** — framework de testes integrado ao Rust
 
-### 📚 estudos
-Pasta destinada aos estudos da linguagem Rust, contendo:
-- Exercícios
-- Testes de funcionalidades
-- Experimentos com estruturas de dados
-- Aprendizado progressivo da linguagem
+---
 
-### 🛒 megastore
-Projeto principal do trabalho da faculdade.
+## Como Rodar
 
-## 📖 Status
+**Pré-requisitos:** Rust instalado ([rustup.rs](https://rustup.rs))
+```bash
+# Clonar o repositório
+git clone https://github.com/LuisAzeve/estudo-algoritmos-e-dados
+cd estudo-algoritmos-e-dados
 
-🚧 Em desenvolvimento
+# Compilar e executar
+cargo run
+```
+
+## Como Executar os Testes
+```bash
+cargo test
+```
+
+---
+
+## Exemplos de Uso
+
+Ao rodar o programa, ele solicita uma categoria:
